@@ -72,7 +72,7 @@ public class SubBlocPresenter extends AbstractPresenter {
 
 	private void initParams() throws RepositoryException {
 		// get title property value setting by dialog
-		title = properties.get(Property.jcrTitle, "");
+		title = properties.get(Property.jcrTitle, "Default SubTitle");
         linkList = new ArrayList<Link>();
         childLinkList = new ArrayList<Link>();
         nodeList = currentNode.getNodes();

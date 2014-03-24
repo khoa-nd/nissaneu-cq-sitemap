@@ -5,3 +5,4 @@
 PresenterUtils.makePresenter(LinkBlocsPresenter.class, slingRequest, properties, currentNode);
 %>
 <h2>${title}</h2>
+<cq:include path="par" resourceType="foundation/components/parsys"/>

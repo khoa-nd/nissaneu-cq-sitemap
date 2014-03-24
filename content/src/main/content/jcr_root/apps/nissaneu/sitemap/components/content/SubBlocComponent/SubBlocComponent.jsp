@@ -11,7 +11,7 @@ String newNode = null;
 
 <cq:includeClientLib categories="cq.widgets"/>
 <cq:includeClientLib categories="sitemap.widgets"/>
-<h2>${title}/${newNode} / ${isEditMode} / ${link} / ${value} / thao</h2>
+<h2>${title}</h2>
 <!-- Custom component -->
 <c:if test="${not empty linkList}">
 	<c:forEach var="node" items="${linkList}">
