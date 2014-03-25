@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="PS LMT Component (Design Dialog)">
+    <items jcr:primaryType="cq:TabPanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <panels
+                jcr:primaryType="cq:Panel"
+                title="LMT">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <activate
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Activate LMT"
+                        name="./customDisplay"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <custom
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="LMT detail"
+                        name="./custom"
+                        xtype="nissanlinkfield"/>
+                    <LMTPosition
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="LMT position"
+                        name="./position"
+                        xtype="field"/>
+                </items>
+            </panels>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="LMT Bloc"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <buildItDisplay
+            jcr:primaryType="cq:Widget"
+            blankText=""
+            fieldLabel="LMT activate"
+            name="./buildItDisplay"
+            type="checkbox"
+            xtype="selection"/>
+        <buildItLink
+            jcr:primaryType="cq:Widget"
+            fieldLabel="LMT Builder"
+            name="./buildItLink"
+            xtype="nissanlinkfield"/>
+        <buildItPosition
+            jcr:primaryType="cq:Widget"
+            fieldLabel="LMT Position"
+            name="./buildItPosition"
+            xtype="field"/>
+    </items>
+</jcr:root>

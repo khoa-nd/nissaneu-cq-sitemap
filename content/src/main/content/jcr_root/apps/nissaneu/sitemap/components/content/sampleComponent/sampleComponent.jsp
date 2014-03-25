@@ -4,7 +4,7 @@
 <%
 PresenterUtils.makePresenter(SamplePresenter.class, slingRequest, properties, currentNode);
 %>
-<h1>Sample Component</h2>
+<h1>Sample Component</h1>
 <p>Title : ${title}</p>
 <p>Href : ${href}</p>
 
