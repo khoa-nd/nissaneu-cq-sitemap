@@ -23,14 +23,13 @@
 							pageContext.setAttribute("nissanLink", nissanLink);
 							if (nissanLink != null) {
 								pageContext.setAttribute("nissanLinkString", nissanLink.toString());
+                                pageContext.setAttribute("customIcon", nissanLink.getIcon()); 
 							}
 							pageContext.setAttribute("displayCustom", displayCustom);
 							pageContext.setAttribute("buildItPosition", position);
 							if (isEditMode) {
 								PropertyUtils.setResourceTypeForImage(node,	"customIcon");
 							}
-							pageContext.setAttribute("customIcon", nissanLink.getIcon());
-
 
 				%>
 
