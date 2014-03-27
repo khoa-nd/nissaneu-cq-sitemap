@@ -34,6 +34,7 @@ String newNode = null;
                         },
                         "inlineEditing" : CQ.wcm.EditBase.INLINE_MODE_NEVER,
                         "actions" : [
+                            {"text" : "Level 1 Link"},
                             CQ.wcm.EditBase.EDITANNOTATE,
                             {
                                 "xtype" : "tbseparator"
@@ -66,6 +67,7 @@ String newNode = null;
                                 },
                                 "inlineEditing" : CQ.wcm.EditBase.INLINE_MODE_NEVER,
                                 "actions" : [
+                                    {"text":"Level 2 Link"},
                                     CQ.wcm.EditBase.EDITANNOTATE,
                                     {
                                         "xtype" : "tbseparator"
